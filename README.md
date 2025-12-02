@@ -45,11 +45,11 @@ Ejemplo:
 ```
 El script detecta:
 
-Nombre del evento
+* Nombre del evento
 
-Hora de inicio
+* Hora de inicio
 
-Hora de fin
+* Hora de fin
 
 Y mantiene el monitoreo activo en ese intervalo.
 
@@ -84,15 +84,15 @@ Ejemplo:
 ```
 ### 🔄 Flujo General del Sistema
 
-1. Leer evento del día (eventos_programados.json)
-2. Generar token de sesión Avigilon
-3. Cargar cámaras permitidas
-4. Bucle en tiempo real hasta hora_fin:
-      ├── Consultar eventos (API REST)
-      ├── Insertar en tabla eventos_Analisis
-      ├── Actualizar aforo PARQUEADERO NORTE
-      ├── Actualizar aforo CAMPINSITO
-      └── Actualizar aforo ZONA SUR
+* Leer evento del día (eventos_programados.json)
+* Generar token de sesión Avigilon
+* Cargar cámaras permitidas
+* Bucle en tiempo real hasta hora_fin:
+      * ├── Consultar eventos (API REST)
+      * ├── Insertar en tabla eventos_Analisis
+      * ├── Actualizar aforo PARQUEADERO NORTE
+      * ├── Actualizar aforo CAMPINSITO
+      * └── Actualizar aforo ZONA SUR
 📡 Consulta de Eventos (API REST)
 Cada cámara se consulta en intervalos cortos:
 
@@ -112,6 +112,7 @@ Si recibe 1000 eventos → continúa paginando.
 ## 🗄️ Inserción en Base de Datos
 Cada evento válido se almacena en:
 eventos_Analisis
+```
 Campos:
 analyticEventName
 area
@@ -119,12 +120,13 @@ activity
 cameraId
 timestamp (hora local Colombia)
 nombre del evento
-
+```
 Ejemplo SQL:
-
+```
 INSERT INTO eventos_Analisis
 (analyticEventName, area, activity, cameraID, timestamp, nombre_evento)
 VALUES (...)
+```
 
 🚪 Actualización de Aforos
 El sistema maneja tres zonas independientes:
@@ -142,9 +144,10 @@ Tablas:
 * Aforo_parqueadero_SUR
 
 Proceso:
-
+```
 Si existe registro → UPDATE
 Si no existe      → INSERT
+```
 🪵 Logging
 Logging rotativo:
 
