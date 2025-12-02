@@ -1,0 +1,4021 @@
+            
+[
+        {
+                "id": "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 40",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "4.86.0.32(410943bb)",
+                "ipAddress": "10.16.203.224:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:CE",
+                "serial": "102410318974",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07800093647535,
+                    "latitude": 4.644897924725285
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "GkeuZ8UqVDeFAIMyPGAUqg",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtVLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "GGS2mbB4FPgxikS2cE26Uw",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtXLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "1CP792K_ykrz11TDKR86uQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtVLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "N70DM-iD4X1J52tRfGk-VA",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtUrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.466Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+            {
+                "id": "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 26",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.190:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:EB",
+                "serial": "102410319003",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07672269723388,
+                    "latitude": 4.64598773671959
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "cNEFd-DiE1HQyxp4IUKgPg",
+                        "source": "4xIx1DMwMLSwMDW1TElKTdIrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "pa74WI6Si4gMtlD8oVG5Jg",
+                        "source": "4xIx1DMwMLSwMDW1TElKTdJLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "bT9_YOICWCLsfWbycmRavg",
+                        "source": "4xIx1DMwMLSwMDW1TElKTdLLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "Qon_Qhon6d1AYxWLc3C6kQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKTdJLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.488Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+               {
+                "id": "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 17",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.173:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DC:B5",
+                "serial": "102410319205",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07717420056981,
+                    "latitude": 4.646985043562708
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "4tHJ6TjkIuTR_8WjZRO6BA",
+                        "source": "4xIx1DMwMLSwMDW1TElOMtUrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "e_C_GagMUoJOPU1RfGYVSA",
+                        "source": "4xIx1DMwMLSwMDW1TElOMtVLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "wZ9bP9jJxyvp6ysRAABqsg",
+                        "source": "4xIx1DMwMLSwMDW1TElOMtVLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "3zdYw4ZCJNrHvFX9U839Og",
+                        "source": "4xIx1DMwMLSwMDW1TElOMtXLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.510Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },         
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TEk2SNZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA SUR OCCIDENTAL 1",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.231:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DC:0C",
+                "serial": "102410319036",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07844784884315,
+                    "latitude": 4.64512150292353
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "ZFCKWcQ0RDAUEvzQ6SjMRQ",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SNYrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SNZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "bWac56slEAkGSuAOsmqizA",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SNZLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SNZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "Pj8y6-UR4Cqiv9Aj_JC8Sw",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SNbLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SNZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "k6nAO5qChuEWzc-PvZmKgQ",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SNZLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SNZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.493Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKSdNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 27",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "4.86.0.32(410943bb)",
+                "ipAddress": "10.16.203.194:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:DF",
+                "serial": "102410318991",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07671854033515,
+                    "latitude": 4.645853787584429
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "cHl0z8JOAskwmQqkPyUsrg",
+                        "source": "4xIx1DMwMLSwMDW1TElKSdNLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKSdNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "e85iIQsFmj_gPY3oYIB9YQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKSdNLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKSdNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "cJTvFtmsCm9YcJ-1q_Kq7w",
+                        "source": "4xIx1DMwMLSwMDW1TElKSdPLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKSdNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "nZ3xkdY9y4u9PBMFw8yL6g",
+                        "source": "4xIx1DMwMLSwMDW1TElKSdMrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKSdNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.482Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKstRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 24",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "4.86.0.32(410943bb)",
+                "ipAddress": "10.16.203.104:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:B9",
+                "serial": "102410318953",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07667188049318,
+                    "latitude": 4.646367763622706
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "BCFmh0Wp6sV8dfjp5No6Mw",
+                        "source": "4xIx1DMwMLSwMDW1TElKstQrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKstRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "Eh5qAE9bjSSbgqJn6bF3tg",
+                        "source": "4xIx1DMwMLSwMDW1TElKstTLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKstRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "IFV7uV67wOWmw3c0MGNF2A",
+                        "source": "4xIx1DMwMLSwMDW1TElKstRLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKstRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "MKLzNzvJxsf4kxB1q3rumg",
+                        "source": "4xIx1DMwMLSwMDW1TElKstRLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKstRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.449Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElOStZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 11",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.211:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DC:BC",
+                "serial": "102410319212",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07801616205397,
+                    "latitude": 4.647003886917361
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "YKn6dr8aQ548SY2TqG6cdg",
+                        "source": "4xIx1DMwMLSwMDW1TElOStZLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOStZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "EbHlRqZycqWNF7_zb1KFTw",
+                        "source": "4xIx1DMwMLSwMDW1TElOStbLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOStZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "MSOgsA23qKOuMklkWtKJQQ",
+                        "source": "4xIx1DMwMLSwMDW1TElOStZLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOStZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "armIBhTi7uY71HmkHXJa8Q",
+                        "source": "4xIx1DMwMLSwMDW1TElOStYrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElOStZLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.515Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TEk2SdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 28",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.208:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DC:4B",
+                "serial": "102410319099",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07672460034114,
+                    "latitude": 4.645705481105992
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "g_60MWxjjG3X-KCwA5NjBA",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SdJLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "eVCwDs01vBWes6Oz_l7MiQ",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SdLLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "tUCk3RQx1G8FZTRscvOAYg",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SdJLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "V2qp7JB4BLu-qZCPittLzw",
+                        "source": "4xIx1DMwMLSwMDW1TEk2SdIrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2SdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.504Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TEmyTNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 36",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.206:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:9A",
+                "serial": "102410318922",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07718540069091,
+                    "latitude": 4.644854483344645
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "pUwTvqVpMV5LwckxD47tvA",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNRLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "T345RNAYRDndYmVld34Osw",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNRLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "swHQtHxVE5llW0OvjVMCQw",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNQrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "-M9KQeRHiMKYDraWOTsKYg",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNTLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.415Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA NOR OCCIDENTAL 1",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.230:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:AF",
+                "serial": "102410318943",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07827512299703,
+                    "latitude": 4.646811766872119
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "_cGyN5tH8737FUj1UhmBbg",
+                        "source": "4xIx1DMwMLSwMDW1TElKTNNLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "rL9wYkeAQkiGhccmHsASqQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKTNMrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "3xnmVmXwjqBQga-qebAkrw",
+                        "source": "4xIx1DMwMLSwMDW1TElKTNNLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "0mwlKHZKkannqapL0269oQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKTNPLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.438Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKTtFLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 21",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.189:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:CD",
+                "serial": "102410318973",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.0768681839547,
+                    "latitude": 4.64675186276105
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "UjtZiM0JmeqyWEhVFLCwWA",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtHLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtFLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "Xbtk1FFypdB-Gd7Y8Tb8wQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtFLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtFLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "WrQ15TgnGL6kNtQlPtnD5Q",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtErLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtFLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "LwrWkQ9_zDqw1WKH41azHw",
+                        "source": "4xIx1DMwMLSwMDW1TElKTtFLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKTtFLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.460Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKMdVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA SUR OCCIDENTAL 2",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.222:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:D5",
+                "serial": "102410318981",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07839788991637,
+                    "latitude": 4.645127398085435
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "bKkDraJvTFGFW-mWtZQgPA",
+                        "source": "4xIx1DMwMLSwMDW1TElKMdVLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKMdVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "IdyDNIdb325mjcNTdRlkjg",
+                        "source": "4xIx1DMwMLSwMDW1TElKMdXLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKMdVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "tdfcScweYaytgZWZK21NxA",
+                        "source": "4xIx1DMwMLSwMDW1TElKMdUrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKMdVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "PWUUGAwi6JL_qOPpoVaKYg",
+                        "source": "4xIx1DMwMLSwMDW1TElKMdVLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKMdVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.476Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKNNdLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 30",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "4.86.0.32(410943bb)",
+                "ipAddress": "10.16.203.217:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:A7",
+                "serial": "102410318935",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07678028395956,
+                    "latitude": 4.645436108167459
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "rlI76lJGE8Si37NU4003eg",
+                        "source": "4xIx1DMwMLSwMDW1TElKNNcrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNNdLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "HFtTiSKeR0tuZnsUZoGxmg",
+                        "source": "4xIx1DMwMLSwMDW1TElKNNfLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNNdLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "e4MCJoTZY1V2cP-e5qPWGg",
+                        "source": "4xIx1DMwMLSwMDW1TElKNNdLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNNdLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "PQeuKWwe0UngdODUOsFphg",
+                        "source": "4xIx1DMwMLSwMDW1TElKNNdLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNNdLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.426Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TEk2stBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA NOR OCCIDENTAL 2",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.226:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DC:28",
+                "serial": "102410319064",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07821813036976,
+                    "latitude": 4.646824502354505
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "q9dPvNi8rVQdNdZ-bllECw",
+                        "source": "4xIx1DMwMLSwMDW1TEk2stBLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2stBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "I-LD_PpCOr2KeX3zCXfGkg",
+                        "source": "4xIx1DMwMLSwMDW1TEk2stArLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2stBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "BJJ78vyZZc3RntQ0iSBAfQ",
+                        "source": "4xIx1DMwMLSwMDW1TEk2stBLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2stBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "TdRTJ3EoAz1zloMbQayn0w",
+                        "source": "4xIx1DMwMLSwMDW1TEk2stDLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEk2stBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.499Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TEmyTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 15",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.227:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:9F",
+                "serial": "102410318927",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07761602575005,
+                    "latitude": 4.647086893602264
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "rYT_aDfW_MYtp7FPs6NBKg",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNPLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "2JuhrEewCEsOoGtOheLaAA",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNNLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "2aaEH4epvy0qujaieXr7iA",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNNLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "Jq0HjeMXPnqmKJPyUtPKUw",
+                        "source": "4xIx1DMwMLSwMDW1TEmyTNMrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TEmyTNNLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.421Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKtNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 33",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "5.20.0.20",
+                "ipAddress": "10.16.203.225:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:A9",
+                "serial": "102410318937",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07697978858779,
+                    "latitude": 4.645035760719736
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "hVtohEEDLPBnK5EkBao-3A",
+                        "source": "4xIx1DMwMLSwMDW1TElKtNRLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKtNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "_nzafzz8Pg1zRyCR-GMx9w",
+                        "source": "4xIx1DMwMLSwMDW1TElKtNQrLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKtNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "ijzvYmPd5U0Gp_aZH3u_YQ",
+                        "source": "4xIx1DMwMLSwMDW1TElKtNTLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKtNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "iPyaFhZhL6NQqRnvlBK75A",
+                        "source": "4xIx1DMwMLSwMDW1TElKtNRLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKtNRLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "DEFOG_MODE",
+                        "DEFOG_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.432Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            },
+
+                        {
+                "id": "4xIx1DMwMLSwMDW1TElKNtBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                "name": "TUNEL PTA 39",
+                "location": "Unknown",
+                "apiType": "ONVIF_SOAP",
+                "available": true,
+                "connectionFailoverLevel": 0,
+                "connectionState": "CONNECTED",
+                "dateTimeZone": {
+                    "utcOffset": -18000,
+                    "timezone": "America/Guayaquil",
+                    "stdMonth": 0,
+                    "stdWeek": 0,
+                    "stdDay": 0,
+                    "stdHour": 0,
+                    "stdMinute": 0,
+                    "stdBias": 0,
+                    "dstMonth": 0,
+                    "dstWeek": 0,
+                    "dstDay": 0,
+                    "dstHour": 0,
+                    "dstMinute": 0,
+                    "dstBias": 0
+                },
+                "firmwareUpgradeStatus": {
+                    "state": "IDLE",
+                    "timestamp": "1970-01-01T00:00:00.000Z",
+                    "progress": 0,
+                    "error": "UNKNOWN (1)"
+                },
+                "firmwareVersion": "4.86.0.32(410943bb)",
+                "ipAddress": "10.16.203.110:443",
+                "manufacturer": "Avigilon (ONVIF)",
+                "model": "4.0C-H6A-BO1-IR",
+                "operatingPriority": 0,
+                "physicalAddress": "00:18:85:59:DB:C0",
+                "serial": "102410318960",
+                "serverId": "8AMjadEURXKv89qhpPkKKA",
+                "timezone": "America/Guayaquil",
+                "active": true,
+                "logicalId": 4294967295,
+                "geolocation": {
+                    "longitude": -74.07790807429961,
+                    "latitude": 4.644839508589541
+                },
+                "perspective": "CEILING",
+                "enableClientDewarping": false,
+                "links": [
+                    {
+                        "type": "DIGITAL_INPUT",
+                        "id": "zLy67eUSactVDZO2JPUhAw",
+                        "source": "4xIx1DMwMLSwMDW1TElKNtBLycwzMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNtBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_INPUT",
+                        "id": "WATQaS0EFVmiTce2oozx9w",
+                        "source": "4xIx1DMwMLSwMDW1TElKNtDLzUw2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNtBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "DIGITAL_OUTPUT",
+                        "id": "I3QZJrmMvReGW8Vj-fKq6w",
+                        "source": "4xIx1DMwMLSwMDW1TElKNtBLyS8xMBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNtBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    },
+                    {
+                        "type": "AUDIO_OUTPUT",
+                        "id": "gept2WBG08OJyXz6X4Gv_Q",
+                        "source": "4xIx1DMwMLSwMDW1TElKNtArLsg2MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+                        "target": "4xIx1DMwMLSwMDW1TElKNtBLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
+                    }
+                ],
+                "capabilities": {
+                    "general": [
+                        "REBOOT",
+                        "CONTROL_LEDS",
+                        "PRIVACY_ZONES",
+                        "PRIVACY_ZONE_POSITION",
+                        "CAMERA_MODE",
+                        "CHANGE_PASSWORD",
+                        "DEWARP",
+                        "ADVANCED_PRIVACY_MASK"
+                    ],
+                    "ptz": [
+                        "DISABLE_CONTROLS"
+                    ],
+                    "network": [
+                        "AUTO_IP_CONF",
+                        "MANUAL_IP_CONF",
+                        "HTTP_PORT",
+                        "MULTICAST",
+                        "ENCRYPTION_MODE"
+                    ],
+                    "compression": [
+                        "MJPEG",
+                        "H264",
+                        "H265",
+                        "MJPEG_DEC",
+                        "H264_DEC",
+                        "H265_DEC"
+                    ],
+                    "mjpeg": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "h264": [
+                        "RESOLUTION",
+                        "MULTI_STREAMING",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "RECORDING_PROFILES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION",
+                        "HDSM_TILING",
+                        "HDSM_10"
+                    ],
+                    "acquisition": [
+                        "BACKLIGHT_COMP",
+                        "BACKLIGHT_COMP_LEVEL",
+                        "COLOUR_SATURATION",
+                        "SHARPNESS",
+                        "IR_CUT_FILTER",
+                        "WHITE_BALANCE_AUTO",
+                        "WHITE_BALANCE_MANUAL",
+                        "WIDE_DYNAMIC_RANGE",
+                        "FLICKER_CONTROL",
+                        "ADATIVE_IR",
+                        "FOCUS_MANUAL",
+                        "FOCUS_ONE_SHOT",
+                        "FOCUS_ADJ_IR_ILLUM_TYPE",
+                        "IMAGE_ROTATION",
+                        "DAY_NIGHT_THRESHOLD",
+                        "RESTORE_DEFAULTS"
+                    ],
+                    "exposure": [
+                        "EXPOSURE_AUTO",
+                        "EXPOSURE_AUTO_PRIORITY",
+                        "EXPOSURE_AUTO_MAX_VALUE",
+                        "EXPOSURE_MANUAL",
+                        "GAIN_AUTO_MAX_VALUE",
+                        "IRIS_AUTO",
+                        "IRIS_MANUAL"
+                    ],
+                    "motion": [
+                        "MASK",
+                        "SENSITIVITY",
+                        "THRESHOLD",
+                        "CLASSIFIED_OBJECT"
+                    ],
+                    "digitalIo": [
+                        "INPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_DEFAULT_CIRCUIT_STATE",
+                        "OUTPUT_ACTIVATE",
+                        "OUTPUT_MODE"
+                    ],
+                    "audio": [
+                        "MICROPHONE_GAIN"
+                    ],
+                    "speaker": [
+                        "SPEAKER_OUTPUT"
+                    ],
+                    "analytic": [
+                        "ENABLE",
+                        "TEACH_BY_EXAMPLE",
+                        "SMART_MOTION",
+                        "RULE_OBJECT_PRESENT",
+                        "RULE_OBJECT_LOITERING",
+                        "RULE_OBJECT_CROSSES",
+                        "RULE_OBJECT_ENTERS",
+                        "RULE_OBJECT_LEAVES",
+                        "RULE_OBJECT_STOPS",
+                        "RULE_OBJECT_APPEARS",
+                        "RULE_OBJECT_DISAPPEARS",
+                        "RULE_PROHIBITED_DIRECTION",
+                        "RULE_OBJECT_COUNTING",
+                        "RULE_OBJECT_REQUIRED",
+                        "ANALYTICS_MODE",
+                        "SELF_LEARNING",
+                        "TAMPERING_SENSITIVITY",
+                        "APPEARANCE_SEACH_ENABLE",
+                        "TAMPERING_GRACE_PERIOD",
+                        "UNUSUAL_ACTIVITY_DETECTION",
+                        "FACE_MATCH",
+                        "TAMPERING_ENABLE"
+                    ],
+                    "streamRecording": [
+                        "RESOLUTION",
+                        "VARIABLE_BIT_RATE",
+                        "IDLE_SCENE_MODE",
+                        "IDLE_SCENE_MODE_IMAGE_RATE",
+                        "IDLE_SCENE_MODE_IMAGE_QUALITY",
+                        "IDLE_SCENE_MODE_MAX_BIT_RATE",
+                        "IDLE_SCENE_MODE_KEY_FRAME_INTERVAL_FRAMES",
+                        "IDLE_SCENE_MODE_POST_MOTION_DELAY",
+                        "VBR_IMAGE_RATE",
+                        "VBR_IMAGE_QUALITY",
+                        "VBR_MAX_BIT_RATE",
+                        "VBR_KEY_FRAME_INTERVAL_FRAMES",
+                        "HDSM_SMART_BACKGROUND_IMAGE_QUALITY",
+                        "HDSM_SMART_BANDWIDTH_REDUCTION"
+                    ],
+                    "profileRecording": [
+                        "RECORDING_PROFILES"
+                    ]
+                },
+                "connected": true,
+                "connectionStatus": {
+                    "isConnectable": true,
+                    "state": "CONNECTED",
+                    "errorFlags": [],
+                    "startTime": "2025-06-13T22:34:32.454Z"
+                },
+                "ptzInfo": {
+                    "capabilities": []
+                },
+                "recordedData": true,
+                "defaultWidth": 2688,
+                "defaultHeight": 1520
+            }
+        ]
