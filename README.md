@@ -16,14 +16,12 @@ El sistema está compuesto por:
 
 ## 📁 Estructura del proyecto
 
-monitoreo.py
+registro de Personas Nemesio Camacho.py
 ids_camaras_permitidas.json
 eventos_programados.json
 Monitoreo nemesio camacho.log
 README.md
 
-yaml
-Copiar código
 
 ---
 
@@ -46,6 +44,7 @@ Ejemplo:
     "hora_fin": "23:00"
   }
 }
+```
 El script detecta:
 
 Nombre del evento
@@ -69,28 +68,24 @@ SHA-256
 
 Ejemplo:
 
-python
-Copiar código
 session_token = generate_auth_token(user_nonce, user_key, integration_id)
 Si el token no se genera → el monitoreo no inicia.
 
 🎥 Carga de Cámaras Permitidas
 Las cámaras permitidas se definen en:
 
-pgsql
-Copiar código
 ids_camaras_permitidas.json
 Ejemplo:
 
 json
 Copiar código
 [
-  "CAM12345",
-  "CAM67890"
+  "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+  "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
+  "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
 ]
 🔄 Flujo General del Sistema
-css
-Copiar código
+
 1. Leer evento del día (eventos_programados.json)
 2. Generar token de sesión Avigilon
 3. Cargar cámaras permitidas
@@ -103,8 +98,6 @@ Copiar código
 📡 Consulta de Eventos (API REST)
 Cada cámara se consulta en intervalos cortos:
 
-python
-Copiar código
 fetch_events(camera_id, start, end, session_token)
 Parámetros:
 
@@ -120,31 +113,21 @@ Si recibe 1000 eventos → continúa paginando.
 
 🗄️ Inserción en Base de Datos
 Cada evento válido se almacena en:
-
-nginx
-Copiar código
 eventos_Analisis
 Campos:
-
 analyticEventName
-
 area
-
 activity
-
 cameraId
-
 timestamp (hora local Colombia)
-
 nombre del evento
 
 Ejemplo SQL:
 
-sql
-Copiar código
 INSERT INTO eventos_Analisis
 (analyticEventName, area, activity, cameraID, timestamp, nombre_evento)
 VALUES (...)
+
 🚪 Actualización de Aforos
 El sistema maneja tres zonas independientes:
 
@@ -156,22 +139,18 @@ ZONA SUR
 
 Tablas:
 
-nginx
-Copiar código
 Aforo_parqueadero
 Aforo_parqueadero_campinsito
 Aforo_parqueadero_SUR
+
 Proceso:
 
-pgsql
-Copiar código
 Si existe registro → UPDATE
 Si no existe      → INSERT
 🪵 Logging
 Logging rotativo:
 
-python
-Copiar código
+
 LOG_FILENAME = "Monitoreo nemesio camacho.log"
 RotatingFileHandler(maxBytes=10_000_000, backupCount=5)
 Registra:
@@ -187,9 +166,7 @@ SQL ejecutado
 Inicio/fin del monitoreo
 
 ▶️ Ejecución
-bash
-Copiar código
-python monitoreo.py
+
 🛠 Requisitos
 Python 3.10+
 
