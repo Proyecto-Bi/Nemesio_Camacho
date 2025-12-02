@@ -83,16 +83,18 @@ Ejemplo:
 ]
 ```
 ### 🔄 Flujo General del Sistema
-
+```
 * Leer evento del día (eventos_programados.json)
 * Generar token de sesión Avigilon
 * Cargar cámaras permitidas
 * Bucle en tiempo real hasta hora_fin:
-      * ├── Consultar eventos (API REST)
-      * ├── Insertar en tabla eventos_Analisis
-      * ├── Actualizar aforo PARQUEADERO NORTE
-      * ├── Actualizar aforo CAMPINSITO
-      * └── Actualizar aforo ZONA SUR
+      ├── Consultar eventos (API REST)
+      ├── Insertar en tabla eventos_Analisis
+      ├── Actualizar aforo PARQUEADERO NORTE
+      ├── Actualizar aforo CAMPINSITO
+      └── Actualizar aforo ZONA SUR
+
+```
 📡 Consulta de Eventos (API REST)
 Cada cámara se consulta en intervalos cortos:
 
