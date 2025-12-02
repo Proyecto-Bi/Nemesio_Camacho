@@ -76,7 +76,6 @@ ids_camaras_permitidas.json
 Ejemplo:
 
 ```json
-Copiar código
 [
   "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
   "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
