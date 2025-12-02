@@ -69,7 +69,7 @@ Ejemplo:
 session_token = generate_auth_token(user_nonce, user_key, integration_id)
 Si el token no se genera → el monitoreo no inicia.
 
-###🎥 Carga de Cámaras Permitidas
+### 🎥 Carga de Cámaras Permitidas
 Las cámaras permitidas se definen en:
 
 ids_camaras_permitidas.json
@@ -83,7 +83,7 @@ Copiar código
   "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
 ]
 ```
-###🔄 Flujo General del Sistema
+### 🔄 Flujo General del Sistema
 
 1. Leer evento del día (eventos_programados.json)
 2. Generar token de sesión Avigilon
@@ -110,7 +110,7 @@ limit = 1000
 
 Si recibe 1000 eventos → continúa paginando.
 
-🗄️ Inserción en Base de Datos
+## 🗄️ Inserción en Base de Datos
 Cada evento válido se almacena en:
 eventos_Analisis
 Campos:
@@ -138,9 +138,9 @@ ZONA SUR
 
 Tablas:
 
-Aforo_parqueadero
-Aforo_parqueadero_campinsito
-Aforo_parqueadero_SUR
+* Aforo_parqueadero
+* Aforo_parqueadero_campinsito
+* Aforo_parqueadero_SUR
 
 Proceso:
 
