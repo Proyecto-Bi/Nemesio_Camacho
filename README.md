@@ -25,14 +25,12 @@ README.md
 
 ---
 
-# 📅 Evento Programado
+### 📅 Evento Programado
 
 El sistema lee automáticamente el evento del día desde:
 
 eventos_programados.json
 
-css
-Copiar código
 
 Ejemplo:
 
@@ -55,7 +53,7 @@ Hora de fin
 
 Y mantiene el monitoreo activo en ese intervalo.
 
-🔐 Autenticación Avigilon
+### 🔐 Autenticación Avigilon
 Para consultas a la API Avigilon se genera un token de sesión temporal, utilizando:
 
 Nonce
@@ -71,20 +69,21 @@ Ejemplo:
 session_token = generate_auth_token(user_nonce, user_key, integration_id)
 Si el token no se genera → el monitoreo no inicia.
 
-🎥 Carga de Cámaras Permitidas
+###🎥 Carga de Cámaras Permitidas
 Las cámaras permitidas se definen en:
 
 ids_camaras_permitidas.json
 Ejemplo:
 
-json
+```json
 Copiar código
 [
   "4xIx1DMwMLSwMDW1TElKTtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
   "4xIx1DMwMLSwMDW1TElKTdJLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA",
   "4xIx1DMwMLSwMDW1TElOMtVLTsw1MBAS-MCsnHlRxLVo_edbC5f85NIAAA"
 ]
-🔄 Flujo General del Sistema
+```
+###🔄 Flujo General del Sistema
 
 1. Leer evento del día (eventos_programados.json)
 2. Generar token de sesión Avigilon
@@ -167,7 +166,8 @@ Inicio/fin del monitoreo
 
 ▶️ Ejecución
 
-🛠 Requisitos
+#🛠 Requisitos
+```
 Python 3.10+
 
 ODBC Driver 17 for SQL Server
@@ -177,3 +177,4 @@ Acceso a la API Avigilon
 Credenciales de SQL Server
 
 Archivos JSON configurados correctamente
+```
